@@ -47,7 +47,7 @@ For inquiries, please open an issue or contact [Project Maintainer's Name].
 
 Let's build the future of agent-based planning together!
 
-Don’t forget to add actual links and the citation you want people to use. You can create additional sections as necessary, such as 'Documentation', 'Roadmap', 'Code of Conduct', 'Security', etc., to provide more information and guidelines for the project.
+
 
 
 
