@@ -10,6 +10,11 @@ AiRP (Agent-based Information and Resource Planning) is an open-source framework
 - **Dynamic Resource Allocation**: Implement strategies for optimal resource distribution and task allocation among agents.
 - **Extensible and Scalable**: Easily extend AiRP to integrate with various environments and scale up as your system grows.
 
+## Key Concepts from Lumos and CoELA
+- **Task Decomposition (Lumos)**: AiRP leverages a modular design where complex tasks are broken down into subgoals, akin to the planning module in Lumos.
+- **Cognitive-Inspired Modules (CoELA)**: Like CoELA, AiRP utilizes the language understanding and generation prowess of LLMs to empower agents with perception, memory, communication, and execution capabilities.
+- **Dynamic Collaboration (CoELA)**: AiRP agents can communicate in natural language to plan and execute multi-objective tasks, demonstrating emergent collaborative behavior as seen in CoELA's design.
+
 ## Installation
 ```bash
 git clone https://github.com/yourusername/AiRP.git
