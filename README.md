@@ -21,25 +21,25 @@ git clone https://github.com/yourusername/AiRP.git
 cd AiRP
 # follow setup instructions for your environment
 
-Setup
+## Setup
 To be updated soon
 
-Usage
+## Usage
 Detailed usage instructions, including environment setup, agent creation, and task definitions, will be available in the documentation.
 
-Contributing
+## Contributing
 We welcome contributions from the community! Please see our CONTRIBUTING.md for guidelines on how to make a contribution.
 
-License
+## License
 AiRP is open source and available under the MIT License.
 
-Community
+## Community
 Join our community to discuss ideas, get help, and collaborate:
 
-Discussion Forum
-Discord Channel
+## Discussion Forum
+TBD
 
-Citation
+## Citation
 To be updated
 
 
@@ -47,8 +47,8 @@ To be updated
 Acknowledgments
 This project is inspired by works such as Lumos, CoELA, and the collaborative efforts of the open-source community.
 
-Contact
-For inquiries, please open an issue or contact [Project Maintainer's Name].
+## Contact
+For inquiries, please open an issue or contact me @aloktechdev on twitter.
 
 Let's build the future of agent-based planning together!
 
