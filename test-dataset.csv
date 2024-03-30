@@ -1,0 +1,262 @@
+prompt,response
+Recharge my phone with the existing plan using <PYAP> and transfer the same amount to the contact <CNTC> .,recharge_transfer
+Have I received Rs. <AMNT> from <FN> recently on <PYAP> ?,inquire_transaction
+Transfer Rs. <AMNT> to selected contacts at 9 AM tomorrow using <PYAP> .,schedule_transfer
+Can you check <APPS> transactions to see if a refund of Rs. <AMNT> has been processed in the last <PRD> ?,inquire_refund
+Transfer Rs. <AMNT> from my <BNK> account <BKAN> to my <PYAP> Wallet,transfer_to_wallet
+"Give me the list of contacts who I have received money from in the last <PRD> , on all payment apps",inquire_transaction
+"Can you stop automatically sending <FN> Rs. <AMNT> <RPRD> and send Rs. <AMNT> instead, on <PYAP> ?",stop_autopay
+Have I recieved any cashback from online transactions in the last <NUMBER> weeks on <PYAP> ?,inquire_cashback
+Transfer Rs. <AMNT> to the contact <CNTC> as <MONTH> 's payment.,transfer
+Can you verify if Rs. <AMNT> was just received via my <PYAP> ?,inquire_transaction
+"Pay Rs. <AMNT> more to the last scanned QR code on <PYAP> , add a remark saying ""tip"".",transfer_using_qr
+"Transfer Rs, <AMNT> from my default <PYAP> account to my other linked account",transfer
+"Can you show me the bills that are to be paid by this week, and pay the required amount after confirmation?",inquire_and_pay
+Check whether a refund of Rs. <AMNT> from <APPS> has been processed or not!,inquire_refund
+Is there a way I can change the default bank account on <PYAP> ?,change_default_bank
+Can you add my <BNK> <CRD> to the list of my payment methods on <APPS> ?,add_payment_method
+Can I add my other bank accounts in <PYAP> ?,add_payment_method
+Can you remove my <BNK> <CRD> from <PYAP> ?,remove_payment_method
+Can you check the rewards which I have earned by making transactions on <APPS> ?,inquire_rewards
+Are soft inquiries recorded in the credit report?,inquire_credit_report
+Can you check the balance in my <PYAP> Wallet?,inquire_balance
+Change my default card for tap and pay method from <BNK> <CRD> to <BNK> <CRD> .,change_default_card
+Is a <CRD> mandatory to set the UPI Pin?,inquire_upi_pin
+Where can I see all my past transactions in the <PYAP> ?,inquire_transaction
+When can I expect for the payment to be updated after a merchant transaction in <PYAP> ?,inquire_transaction
+Which bills can I pay using my <PYAP> ?,inquire_billpay
+How do I activate my <PYAP> wallet?,activate_wallet
+Can you add Rs <AMNT> to my <PYAP> Wallet from my <BNK> account?,transfer_to_wallet
+Proceed for KYC to avail 'merchant payments' option!,kyc
+Can I take a photo of my card to add it to <PYAP> ?,add_payment_method
+Please fill up my PAN Card details to activate my <PYAP> wallet.,activate_wallet
+Please fill up my Aadhar Card details to activate my <PYAP> wallet.,activate_wallet
+Tell me how to reactivate my inactive <PYAP> wallet.,activate_wallet
+Enter the amount <AMNT> and proceed to topup!,recharge
+Tell me about the <PYAP> wallet transaction limit for a day and a month.,inquire_limit
+What is the validity of this <INS> ?,inquire_insurance_details
+Tell me about the details I need to give on my <INS> application form.,inquire_insurance_details
+How often does it usually take for damage evaluation to be conducted for any insurance policy from <FINC> ?,inquire_insurance_details
+Please enter my private car number to proceed forward on <FINC> car insurance page.,submit_insurance_details
+Select sum insured Rs <AMNT> for <INS> insurance,select_insurance_amount
+What is the minimum monthly income required for <INS> insurance with <FINC> ?,inquire_insurance_eligibility
+What are the different risks associated with taking an <INS> insurance policy?,inquire_insurance_details
+Please tell me about the benifits of <INS> insurance policy.,inquire_insurance_benefits
+Add ' <NUMBER> lakh' as my yearly income in personal details.,update_details
+Please tell me about <INS> insurances available and their details.,inquire_insurance_details
+Is cashless facility available at <HOSPITAL> hospital?,inquire_hospital_facilities
+What is the expiry date of my <INS> insurance?,inquire_insurance_details
+Is there a <FINC> or <BNK> <INS> insurance policy that lets me insure for my entire family?,inquire_insurance_details
+Recommend me travel insurance for personal and business trips with sum insured up to Rs. <AMNT>,inquire_insurance_details
+Tell me about the schemes to get covered in case I have to cancel my flight due to an illness.,inquire_insurance_details
+What are the factors determining the cost of a fire insurance policy for my property?,inquire_insurance_details
+Open my <PYAP> QR code.,scan_qr
+Can you scan this QR code and authenticate my <BNK> account?,scan_qr
+Scan the QR code to register my <BNK> <CRD> card for tokenized payments.,scan_qr
+Send <AMNT> to UPI id <UPID> .,transfer_using_upi
+Can you scan this QR code and pay <AMNT> rupees?,transfer_using_qr
+Check if this UPI id <UPID> is verified.,inquire_upi_verification
+Can you reset my UPI id?,reset_upi_id
+Open <PYAP> QR code scanner and upload the first picture from my gallery for scanning.,scan_qr
+Open <PYAP> and open the Code Scanner.,scan_qr
+Can you tell me whether the UPI transaction to <FN> is successful?,inquire_transaction
+Did I receive the money back after the unsuccessful transaction?,inquire_transaction
+Check the balance in my <PYAP> mobile wallet.,inquire_balance
+Block the UPI ID <UPID> .,block_upi
+Is <PHONE_NUMBER> on <PYAP> ?,inquire_phonenumber_verification
+Why is it showing wrong UPI id several times in <PYAP> ?,inquire_upi_error
+Read out the transaction history in <PYAP> to me.,inquire_transaction
+Share my <PYAP> QR code with <FN> on WhatsApp.,share_qr
+Check if I recieved <AMNT> rupees from <UPID> .,inquire_transaction
+Share the scrennshot of reciept with the contact <FN> .,share_receipt
+Give me an idea about the minimum amount I need to invest in any <SVS> .,inquire_saving_scheme_details
+What is the current gold investment returns with <FINC> ?,inquire_financial_investment_details
+Tell me about the fund size and minimum investment needed for <SVS> .,inquire_saving_scheme_details
+What to consider before investing in <SVS> ?,inquire_saving_scheme_details
+Can you please recommend some low-risk SIP plans available ?,inquire_financial_investment_details
+What requirements do I need to fulfil to invest in stocks in <FINC> ?,inquire_financial_investment_details
+Please explain about the investment option called 'Better than FD'.,inquire_financial_investment_details
+Please tell me about 3 years return of <SVS> .,inquire_saving_scheme_details
+Find the top mutual fund schemes rated by credible agencies such as <FINC> .,inquire_financial_investment_details
+What's the brokarage rate for investing in stocks through <PYAP> ?,inquire_financial_investment_details
+What's the brokarage rate for investing in stocks through <FINC> ?,inquire_financial_investment_details
+Can I pay back my <LNS> at <BNK> through <PYAP> ?,inquire_loan_payback_details
+Can I pay back my <LNS> at <FINC> through <PYAP> ?,inquire_loan_payback_details
+Will my credit score be checked for initiating a <LNS> ?,inquire_credit_report
+Please authenticate the monthly SIP payment of Rupees <AMNT> from <PYAP> .,sip_authetication
+Do I need to allocate funds for placing a SIP request?,inquire_sip_details
+Please tell me whether I can place SIP request for sell transactions.,inquire_sip_details
+Can I invest in mutual funds through my <PYAP> ?,inquire_sip_details
+Can I withdraw money from SIP through <PYAP> ?,inquire_sip_details
+Tell me about gold <SVS> available here!,inquire_investment_scheme_details
+Show me my transaction history of last <FPRD> excluding gas station.,inquire_transaction
+What is my average spending on groceries last <FPRD> ?,inquire_transaction
+Please alert me when I reach Rs. <AMNT> on online shopping apps.,payment_reminder
+Give me a list of the contacts I sent money to last <FPRD> .,inquire_transaction
+Did I get money credited from <FN> ?,inquire_transaction
+Turn off my automatic payments for coming <FPRD> .,stop_autopay
+Please show me the transaction reciept of <FPRD> <BILL_ITEMS> bill.,inquire_receipt
+When will I recieve the amount back in stuck transaction of Rs <AMNT> to <BKAN> in <BNK> ?,inquire_transaction
+Stop processing the payment for <APPS> .,stop_payment
+How much was my overall spending last <FPRD> ?,inquire_transaction
+Let me know the history of transaction with <FN> !,inquire_transaction
+Please pay Rs. <AMNT> to <FN> from my <BNK> account <BKAN> .,transfer_bank
+Did I receive Rs. <AMNT> back from the stuck transaction?,inquire_transaction
+Show me the email of salary reciept of last <FPRD> .,inquire_receipt
+Open my transaction history for the last <FPRD> and mute the contact <FN> .,mute_contact
+Show me last week's transactions between <FN> and me.,inquire_transaction
+Show me the frequent contacts to whom I send money.,inquire_transaction
+Was I credited more than Rs. <AMNT> from anyone last <FPRD> ?,inquire_transaction
+"What is the amount in the stuck payment of <PYAP> , I'm yet to receive?",inquire_transaction
+Show me the new features available in the updated version of <PYAP> !,show_new_features
+Do I have any new rewards?,check_new_rewards
+Claim latest reward from <PYAP> .,claim_reward
+Reveal the new scratch card in <PYAP> .,claim_reward
+Do I have to pay for the latest rewards from Groffers or are they free?,inquire_reward_payment
+Is my last reward from <APPS> expired?,inquire_reward_expiry
+When does my reward from <APPS> expire?,inquire_reward_expiry
+How many valid coupons do I have in <PYAP> ?,inquire_reward_coupons
+Show me my reward history.,inquire_reward_history
+Please send this reward to contact <FN> .,send_reward_to_contact
+Please refer <PYAP> to my first 5 contacts in Whatsapp and give me details of the reward money.,refer_contacts_for_reward
+Sort my rewards based on my preferences and filter them by categories.,sort_rewards
+How many more payments do it have to make to get a cashback,inquire_reward_eligibility
+For how much should I shop from <APPS> to activate my coupons,inquire_reward_eligibility
+How many rewards I got in <PYAP> this month?,inquire_reward_history
+How can I share my coupon code with my friend.,send_reward_to_contact
+Can I extend the validity of my coupon from <APPS> ?,inquire_reward_expiry
+Why is my coupon not valid?,inquire_coupon_validity
+How many contacts should I refer to get the ₹1000 cash back offer,refer_contacts_for_reward
+Pay Rs 500 to <FN> from my <PYAP> .,transfer
+How much did I spend on the trip package?,inquire_transaction
+Are there any discounts on <AIRLINES> flights now?,inquire_flight_discounts
+Will my Indane LPG bill be generated online?,inquire_bill_details
+Please transfer Rs <AMNT> to my <APPS> wallet.,transfer_to_wallet
+Please transfer Rs <AMNT> to my <PYAP> wallet.,transfer_to_wallet
+Will I be able to pay using UPI apps on <APPS> 's website?,inquire_upi_availability
+"Please tranfer hostel fees Rs <AMNT> , to the Hostel acount saved.",transfer
+Please show me the reciept of my <BILL_ITEMS> bill.,inquire_reciept
+When is the last day to pay my <BILL_ITEMS> bill?,inquire_bill_details
+Transfer Rs <AMNT> from my <PYAP> app wallet to <FN>,transfer_to_wallet
+Show my <BILL_ITEMS> bill readings from the last <NUMBER> months.,inquire_bill_details
+Book a HP gas cylinder using my registered contact number <PHONE_NUMBER> .,book_gas
+How much did my <APPLIANCE> installation cost?,inquire_transaction
+Show me my transaction history from <DATE> to <DATE>,inquire_transaction
+Did I receive an e-copy of the bill from the last transaction to the <APPS> ?,inquire_bill_details
+Add Rs <AMNT> as the brokerage amount to <FN>,add_brokerage_amount
+Send OTP to a new registered number <PHONE_NUMBER> instead of the old one.,send_otp
+Reset my Autopay settings and show me a transaction report of Autopay payments for the past <NUMBER> month.,reset_autopay
+Remove my finger print from <PYAP> and keep PIN option only!,change_security
+I seem to have accidentally blocked an account <BKAN> so please unblock it.,unblock_account
+I forgot my password of <PYAP> so I would like to reset it to another one.,reset_password
+Suspend my <PYAP> account indefinitely because someone seems to have hacked into it.,block_account
+Hide my personal information from people outside my contact list on <PYAP> .,hide_details
+Transfer Rs. <AMNT> amount to <FN> and autopay a fourth of it every month for the whole year.,transfer_and_autopay
+Is it possible to increase my banking app's security by using double passwords?,inquire_security_details
+Can you send money to unsaved mobile numbers in <PYAP> ?,transfer
+Can you Autopay my <BILL_ITEMS> and <BILL_ITEMS> bills for the next <NUMBER> months?,set_autopay
+Change my <PYAP> lock from phone's password to a <NUMBER> -digit pin.,change_security
+Can you transfer Rs. <AMNT> amount to <NGO> anonymously?,transfer
+Block the <SHARE_COMPANIES> Holdings from my account.,block_holdings
+Resend the OTP for linking <APPS> to my account.,resend_otp
+Change my virtual payment address from <UPID> to <UPID>,change_upi
+Stop my autopay of <APPS> subscription for next month.,stop_autopay
+Can you enable SMS permissions to autofill OTP for <PYAP> banking app?,inquire_sms_read_permissions
+Disable Autopay for my <BILL_ITEMS> bill for <MONTH> and <MONTH> .,stop_autopay
+Please contact customer care for <PYAP> grievances.,contact_customer_care
+I would like a refund on Rs. <AMNT> that was debited twice.,inquire_refund
+I am unable to deactivate autopay for my <APPS> .,stop_autopay
+Can I dispute my <PYAP> rewards?,complaint_rewards
+Why is my <PYAP> app unable to show me my bank balance?,complaint_app
+Why did I not receive my cashback?,complaint_rewards
+Why has transacted amount not been credited?,complaint_transaction
+I am unable to add a bank account to my <PYAP> .,complaint_bank
+Why <PYAP> is not scanning the QR code?,complaint_qr
+My <PYAP> reward has not been credited to my bank account.,complaint_rewards
+Why did my transaction of Rs. <AMNT> to UPI ID <UPID> fail ?,complaint_transaction
+My funds have not been loaded to my <PYAP> wallet.,complaint_transaction
+"Why is my payment on hold, can I get an email ID to contact for such queries in future?",complaint_transaction
+"My <PYAP> QR code scanner is not working properly, what should I do ?",complaint_qr
+Why is my refund request taking so long?,complaint_refund
+How do I report potential fraud to <PYAP> ?,report_fraud
+Report unauthorised <PYAP> account activity.,report_account
+Why havent I recieved a reciept of the donation I gave to the NGO <NGO> ?,complaint_transaction
+Why havent I got the confirmation from electricity board even after the successful transaction of Rs. <AMNT>,complaint_transaction
+List down all the banks available under loan repayment option.,inquire_banks
+Donate Rs. <AMNT> to <NGO>,donate
+Is there any fund raising programme to help specially abled people?,inquire_programmes
+Show me all the donations I made in last <NUMBER> month.,show_donations
+Set up a monthly donation to <NGO> .,set_recurring_donation
+"Is <NGO> available in the list of NGOs, if yes please donate Rs. <AMNT> to it.",donate
+Can I get the reciept for the donation I gave to the social institution <NGO> ?,inquire_donation_details
+I would like to have a monthly donation set up for <NGO> .,set_recurring_donation
+Can I donate to <NGO> ?,enquire_donation_details
+Is there any minimum amount for the donation to <NGO> ?,enquire_donation_details
+What's the processing fee for Prefer Loans?,enquire_loan_fee
+Is there any offer on processing fee for InstaMoney?,enquire_loan_offer
+I want to apply to <LNS> .,enquire_loan
+Do I have any coupons to waiver processing fee on any type of <LNS> ?,enquire_loan_offer
+Am I eligible for a <LNS> from <FINC> ?,enquire_loan_eligibility
+Choose mobile number as Loan Payment Mode.,
+Pay Loan EMI to <FINC> .,transfer_emi
+Contact customer care for a query related to loan repayment.,contact_customer_care
+Is there any loan EMI due this month?,enquire_emi
+How much did I spend in last <NUMBER> month on loan EMI?,enquire_emi
+What remaining bills do I have to pay for this <PRD> ?,inquire_bill_details
+Do I have any credit card bills due this <PRD> ?,inquire_bill_details
+Set a reminder for my pending payment to contact <FN>,payment_reminder
+Remind me to recharge my mobile phone tomorrow.,payment_reminder
+Place a reminder for <BILL_ITEMS> payment on <DATE> .,payment_reminder
+Why did I get the reminder for <BILL_ITEMS> payment even after completing that transaction yesterday?,payment_reminder
+Is there any monthly SIP payment that I have to do in <MONTH> ?,enquire_sip
+Show me my reminders.,payment_reminder
+How many reminders do I have for this <PRD> ?,payment_reminder
+Switch off the reminders for <INS>,mute_reminder
+Mute my reminders for a day!,mute_reminder
+Please show my yesterday's missed notifications.,show_notification
+Remind me to pay house rent on 15th of every month.,payment_reminder
+Create a reminder to pay <BILL_ITEMS> bill on the first of every month.,payment_reminder
+Delete the reminder for <LNS> from <FINC> .,delete_reminder
+Stop sending the Rummy related notifications.,switch_off_notification
+Clear all the reminders set up last <PRD>,delete_reminder
+Why did I not get a reminder to pay the <BILL_ITEMS> bill?,enquire_reminder
+Create a new reminder for paying the <BILL_ITEMS> bill.,payment_reminder
+Can I get notifications for incoming messages?,switch_on_notification
+I would like to turn on the notifications for offers and rewards in <PYAP> .,switch_on_notification
+I want to manage my notification settings in <PYAP> .,change_notification_setting
+Is the notifications for chat messages turned on in <PYAP> ?,enquire_notification_setting
+Turn on notification for upcoming payments in <PYAP> .,switch_on_notification
+Give me notifications before all the autopayments are set in <PYAP> .,switch_on_notification
+"Enable mobile notifications, and turn off email notifications in <PYAP> .",switch_on_notification
+Turn off notifications for offers and rewards in <PYAP> .,switch_off_notification
+Turn on the notifications for <BILL_ITEMS> bill payments in <PYAP> .,switch_on_notification
+Notify 3 days in advance for all auto-payments in <PYAP> .,notify_in_advance
+How much money do I have in my <BNK> bank account?,inquire_balance
+Do I have more than Rs. <AMNT> in my <PYAP> account?,inquire_balance
+What is the balance in my <BNK> account?,inquire_balance
+Does my <PYAP> account have enough funds?,inquire_balance
+How much money is remaining in my <BNK> account?,inquire_balance
+How much can I withdraw from my <BNK> account?,enquire_withdrawal
+What is the maximum I can take out from my <BNK> account?,enquire_withdrawal
+How much is left in my <BNK> account?,inquire_balance
+I want to know the balance in my <BNK> account.,inquire_balance
+Will there be Rs. <AMNT> in my <BNK> account?,inquire_balance
+What's my <BNK> account balance?,inquire_balance
+Do I have enough money in my <BNK> account to make a transaction of Rs. <AMNT> ?,inquire_balance
+Show me my <BNK> account balance and transaction history.,inquire_balance_and_transaction_history
+How much money is left in my <BNK> account?,inquire_balance
+What is the maximum I can transfer from my <BNK> account to my <BNK> account?,inquire_limit
+Check my <BNK> account balance and confirm whether I received an amount of Rs. <AMNT>,inquire_balance_and_transaction_history
+How much money do I have left in my <PYAP> wallet?,inquire_balance
+Display the balance and transaction history of my <BNK> account.,display_account_balance_and_transaction_history
+Where did I do my last transcation through QR code ?,inquire_transaction
+Show the list of restaurants I paid through <PYAP> last <PRD> .,inquire_transaction
+Can you transfer Rs. <AMNT> to my <BKAN> in <BNK> <RPRD> via <PYAP> and give me an alert in case the balance goes below that?,transfer_fund_and_notify_balance
+"Can you check if this month's salary was credited to my bank account <BKAN> in <BNK> , and if yes, transfer Rs. <AMNT> to <BKAN> in <BNK> via <PYAP> ?",check_salary_status_and_tranfer_fund
+Please verify if my bank account <BKAN> can be linked to the digital payment app <PYAP> ?,verify_bank_account
+Tell me how to link multiple bank accounts and transfer money between my own accounts in <BNK> .,link_multiple_account
+Can you check if my <BNK> account <BKAN> supports <PYAP> ?,check_app_support
+Give me recommendations for choosing health insurance plans provided by the agencies <FINC> and <FINC> .,inquire_insurance_details
+Will I get a refund if I cancel my <INS> policy mid-term?,inquire_refund
+Please cancel the automatic deduction for SIP Savings.,stop_autopay
+Please increase the monthly amount of SIP Savings to <AMNT> .,increase_sip_amount
